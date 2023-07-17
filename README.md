@@ -7,13 +7,14 @@
   * Visual Code
 ## Repo content for PAL hackaton and general info
   Working enviroment is made of DB container and dev Linux contaier.\
-  Pls use provided yaml file to pull neccessary containers to form your working enviroment.\
+  Two folders named jdk11 and jdk17 contains two yaml files for two conatiners, one DP and one Linux developer container containing GoLang and Java (11 or 17 depends from which folder)  \
+  Pls use provided yaml file from either jdk11 or jdk17 to pull neccessary containers to form your working enviroment.\
   Create new folder and copy yaml file there, cd into the folder and run <docker-compose up -d>\
-  Once images downoalded and started you can run bash shell inside by runing <docker exec -ti id-of-the-container bash>\
+  Once images downoalded and started you can run bash shell inside by runing <docker exec -ti id-of-the-container bash>
 
   .tar.gz file contains Quarkus scafolding project (unzip it in dev container) and cd inside folder adn you can run <mvn compile quarkus:dev> 
 
-  Visual Code downalod Remote Development extension to connect to dev container and dev code inside container \
+  Visual Code downalod Remote Development extension to connect to dev container and dev code inside container 
 
   Assistance for container creation will be available on the day by support team 
 
@@ -68,7 +69,7 @@ return single transaction
 Pagination for calls returning max "pageSize" rows with query "pageSize" param and allows "page" inout param to select which "startPage" to show arbirtrary page 
 
 ## Goal
-Docker image pushed in dockerhub with your application implementing Rest API
+Docker image pushed in dockerhub with your application implementing Rest API 
 
 ## Useful Links
 ### Quarkus
