@@ -2,7 +2,7 @@
 version: "3.3"
 services:
   db:
-    image: dockerdeepak/workshop:pgdb
+    image: dockerdeepak/workshop:pgdb_v1
     restart: always
     environment:
       POSTGRES_PASSWORD: postgres
