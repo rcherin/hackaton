@@ -1,0 +1,18 @@
+---
+version: "3.3"
+services:
+  db:
+    image: dockerdeepak/workshop:pgdb_v1
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432:5432
+    container_name: pgdb
+  developer:
+    image: dockerdeepak/workshop:gradleimg
+    restart: always
+    ports:
+      - 9443:9443
+      - 8080:8080
+    container_name: myapp
