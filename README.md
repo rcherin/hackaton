@@ -71,6 +71,9 @@ Pagination for calls returning max "pageSize" rows with query "pageSize" param a
 ## Goal
 Docker image pushed in dockerhub with your application implementing Rest API 
 
+## Final comparison
+We will test and comapre each implementation for start-up time, memory consuption under load, max TPS atchieved, container image size and developer happiness :)
+
 ## Useful Links
 ### Quarkus
 https://quarkus.io/guides/hibernate-orm /
